@@ -119,7 +119,7 @@ app.get('/cinema',(req,res)=>{
     })
 })
 
-mongoose.connect("mongodb://127.0.0.1:27017/cinema",{
+mongoose.connect("mongodb+srv://sindhusrinivas4:HpB5FfpCzSwDRFsf@cluster0.dki57n8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/cinema",{
     // useNewUrlParser: true,
     useUnifiedTopology: true
 })
